@@ -1,3 +1,4 @@
+# Run answer(n,b), n = Test case and its type is string
 def answer(n, b):
     z_str = n
     k = len(n)
@@ -27,3 +28,6 @@ def n2b(n, b):      # convert number n from base 10 to base b
         d.append(int(n % b))
         n /= b
     return ''.join(map(str,d[::-1]))
+
+# Uncomment following to see the example
+# print( answer('210022', 3))
